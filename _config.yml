@@ -4,7 +4,7 @@ email: riccardo.pasianotto@gmail.com
 description: "Actually I'm building stuff with jekyll, stay tuned."
 username: "rkpasia"
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://rkpasia.github.io"
 
 # Build settings
 markdown: kramdown
