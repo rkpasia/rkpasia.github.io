@@ -2,8 +2,43 @@
 layout: default
 ---
 
-<div class="home">
+<div class="content">
 
-  <h1>Site under construction</h1>
+  <section id="description" class="description">
+    <div>
+      <h1>{{ site.data.portfolio.description_title }}</h1>
+      <p>{{ site.data.portfolio.description_about }}</p>
+    </div>
+  </section>
+  <section id="skill" class="skill">
+    <div>
+      <h1>Cosa conosco</h1>
+      <ul>
+        {% for skill in site.data.portfolio.skill_list_first_col %}
+        <li><span class="skill-name">{{ skill.name }}</span><progress class="skill-meter" max="100" value="{{ skill.level }}"></progress></li>
+        {% endfor %}
+      </ul>
+      <ul>
+        {% for skill in site.data.portfolio.skill_list_second_col %}
+        <li><span class="skill-name">{{ skill.name }}</span><progress class="skill-meter" max="100" value="{{ skill.level }}"></progress></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <section id="experience" class="what-i-do">
+    <div>
+      <h1>{{ site.data.portfolio.what_i_do_title }}</h1>
+      <p>{{ site.data.portfolio.what_i_do_about }}</p>
+    </div>
+  </section>
+  <section id="works" class="works">
+    <div>
+      <h1>I miei lavori</h1>
+      <div><img src="{{ site.baseurl }}/assets/w1.png" alt=""></div>
+      <div><img src="{{ site.baseurl }}/assets/w2.png" alt=""></div>
+      <div><img src="{{ site.baseurl }}/assets/w3.png" alt=""></div>
+    </div>
+  </section>
+  
 
 </div>

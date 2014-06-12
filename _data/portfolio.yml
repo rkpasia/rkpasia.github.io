@@ -1,3 +1,33 @@
-hero: "Questa è una mia frase"
-stack: "http://stackoverflow.com/users/1777549/rkpasia"
-codepen: "http://codepen.io/Pasia"
+
+# Header headings
+small_description: "I'm a web developer based in Italy."
+
+
+# Main section portfolio
+
+description_title: "La mia storia"
+description_about: "Attualmente sono uno studente di Tecnologie Web e Multimediali dell’Università di Udine. Precedentemente ho frequentato l’Istituto Tecnico Tecnologico Statale Vito Volterra di San Donà di Piave, conseguendo il diploma di Perito Informatico. Alle superiori ho scoperto per la prima volta l’ambiente dello sviluppo web, al quale sono stato introdotto tramite l’insegnamento dell’HTML. Successivamente la mia passione è cresciuta esponenzialmente ed ho continuato ad alimentarla da autodidatta creando piccoli progetti personali fino a progetti per concorsi, quali GoToWeb nel quale sono stato finalista. Ora la mia passione si è trasformata in professione, alla quale dedico tutto il mio entusiasmo e voglia di imparare sempre nuove tecniche e conoscenze."
+
+skill_title:
+# Each skill must be followed by the level
+skill_list_first_col:
+- {name: Html, level: 100}
+- {name: Css, level: 100}
+- {name: Javascript, level: 40}
+- {name: Bootstrap, level: 75}
+
+skill_list_second_col:
+- {name: Php, level: 60}
+- {name: Sql, level: 50}
+- {name: Java, level: 80}
+- {name: Ruby, level: 20}
+
+what_i_do_title: "La mia esperienza"
+what_i_do_about: "Sono un web developer. Principalmente mi occupo di creare grafiche e template per siti web, utilizzando gli standard più moderni per lo sviluppo di essi. Dispongo delle conoscenze necessarie per creare template wordpress su misura assecondando ogni esigenza del cliente. Sono una mente creativa e cerco sempre di ottimizzare il mio stile di lavoro, cercando di renderlo il più produttivo e veloce possibile, integrando nel processo gli strumenti migliori e più comunemente utilizzati nel mio ambiente. Cerco di rimanere sempre al passo con le tecnologie e i linguaggi di programmazione più diffusi, o in fase di diffusione, per questo sono sempre disponibile ed entusiasta di apprendere nuove conoscenze per lo sviluppo."
+
+
+# Portfolio footer social contact
+social_contact:
+- {name: Stack, link: "http://stackoverflow.com/users/1777549/rkpasia"}
+- {name: Codepen, link: "http://codepen.io/Pasia"}
+- {name: Twitter, link: "http://twitter.com/rkpasia"}
