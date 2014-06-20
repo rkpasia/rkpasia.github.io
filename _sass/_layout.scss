@@ -1,0 +1,257 @@
+
+/*** ELEMENTS **/
+
+.btn {
+  text-decoration:none;
+  font-size:13px;
+  letter-spacing: 1px;
+  background-color:#1c60b9;
+  padding:5px 10px;
+  color:white;
+  text-transform: uppercase;
+  border-radius:4px;
+  box-shadow: 3px 3px 0px #3a9dff;
+}
+
+/*** ***/
+
+
+body{
+  color:#333;
+  font-family: 'Open Sans', sans-serif;
+  background-image:url(../assets/wall.jpg);
+  background-size:100%;
+  background-position:bottom;
+  background-repeat: no-repeat;
+  z-index:-1;
+}
+
+body > header {
+  background-color: #a5aab9;
+  background-image:url(../assets/wall.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:0 -100px;
+  height:550px;
+  overflow: hidden;
+  position:relative;
+}
+
+header .presentation-heading {
+  font-weight:700;
+}
+
+header .presentation-heading h1 {
+  font-size:60px;
+  margin:50px 0 5px 0;
+  color:#FFF;
+  text-shadow:1px -1px 1px #555;
+}
+
+header .presentation-heading h2 {
+  font-size:25px;
+  margin-bottom:45px;
+  color:#efefef;
+  text-shadow: 1px -1px 1px #555;
+}
+
+header .presentation-heading .btn {
+  margin-right:20px;
+}
+
+header .presentation-heading .contattami {
+  background-color:#1daf9b;
+  box-shadow:3px 3px 0px #47eebe;
+}
+
+.nav-container {
+  height: 40px;
+  background-color: transparent;
+  position:absolute;
+  bottom:20px;
+  z-index: 0;
+}
+
+section.nav-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  padding-bottom: 20px;
+  background-color: rgba(255,255,255,0.85);
+}
+
+.navigation {
+  line-height: 40px;
+  padding-top:10px;
+  padding-left:percentage(4/12)/2;
+  padding-right:percentage(4/12)/2;
+}
+
+.navigation .nav-heading {
+  width:20%;
+  margin-right:5%;
+  float:left;
+  font-weight:300;
+  font-size: 24px;
+  color:#555;
+}
+
+.navigation ul {
+  width:60%;
+  margin-left:15%;
+  float:left;
+}
+
+.navigation ul li {
+  margin:0 0 0 5%;
+  float:right;
+}
+
+.navigation ul li a {
+  text-decoration:none;
+  color:#555;
+  font-size:20px;
+  font-weight: 300;
+}
+
+.content > section {
+  padding-top:30px;
+  padding-bottom:30px;
+  background-color:white;
+}
+
+.content > section h1 {
+  text-transform: uppercase;
+  font-size:35px;
+  margin-bottom:20px;
+  font-weight:800;
+  letter-spacing:3px;
+}
+
+.content > section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  line-height: 22px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.content .skill-name {
+  width:90px;
+  display:inline-block;
+  font-size:20px;
+  margin-bottom: 20px;
+  text-align:right;
+  padding-right:15px;
+}
+
+.content .skill progress[value]{
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  appearance:none;
+
+  border:none; // FIREFOX
+
+  width:250px;
+  height:10px;
+  margin-bottom:5px;
+
+  color:#f1643b; //INTERNET EXPLORER
+}
+
+.content .skill progress[value]::-webkit-progress-bar{
+  background-color:#eee;
+  border-radius:2px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25) inset;
+}
+
+.content .skill progress[value]::-webkit-progress-value{
+  background-color:#f1643b;
+  border-radius: 2px;
+}
+
+.content .skill progress[value]::-moz-progress-bar{
+  background-color:#eee;
+  border-radius:2px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25) inset;
+}
+
+.content .skill progress[value]::-moz-progress-value{
+  background-color:#f1643b;
+  border-radius: 2px;
+}
+
+.content .works {
+  background-color:rgb(193, 199, 201);
+}
+
+.content .works .thumbnail {
+  background-color:white;
+  margin-bottom:10px;
+  padding-bottom:20px;
+  border-radius:4px;
+  box-shadow:0px 4px 0px #888;
+}
+
+.content .works .thumbnail p {
+  padding-top:10px;
+  text-align:center;
+}
+
+.content .works img{
+  width:100%;
+  
+  border-radius:4px 4px 0 0;
+}
+
+body > footer{
+  position:relative;
+  margin:0 0;
+  background-color:rgba(76, 111, 127,0.65);
+  height:100px;
+}
+
+body > footer > div {
+
+  height:100%;
+}
+
+footer .footer-nav {
+  height:40px;
+  padding-top:30px;
+}
+
+footer .footer-nav h2 a{
+  font-size:20px;
+  color:#FFF;
+  text-shadow:1px -1px 1px #555;
+  float:left;
+  width:25%;
+  margin:0 5% 0 0;
+  line-height:40px;
+  text-decoration:none;
+}
+
+footer .footer-nav ul{ 
+  width:65%;
+  margin:0 0 0 5%;
+  float:left;
+}
+
+footer .footer-nav ul li { 
+  float:right;
+  line-height:40px;
+  margin-left:5%;
+}
+
+footer .footer-nav ul li a{ 
+  text-decoration:none;
+  color:#FFF;
+  text-shadow:0px -1px 1px #555;
+  font-size:20px;
+  font-weight: 400;
+}
