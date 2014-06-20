@@ -2,41 +2,58 @@
 layout: default
 ---
 
-<div class="content">
-
-  <section id="description" class="description">
-    <div>
+<div class="container content">
+  
+  <section id="description" class="row description">
+    <div class="col-8 col-offset-2">
       <h1>{{ site.data.portfolio.description_title }}</h1>
       <p>{{ site.data.portfolio.description_about }}</p>
     </div>
   </section>
-  <section id="skill" class="skill">
-    <div>
+  <section id="skill" class="row skill">
+    <div class="col-8 col-offset-2">
       <h1>Cosa conosco</h1>
-      <ul>
+      <ul class="col-6">
         {% for skill in site.data.portfolio.skill_list_first_col %}
         <li><span class="skill-name">{{ skill.name }}</span><progress class="skill-meter" max="100" value="{{ skill.level }}"></progress></li>
         {% endfor %}
       </ul>
-      <ul>
+      <ul class="col-6">
         {% for skill in site.data.portfolio.skill_list_second_col %}
         <li><span class="skill-name">{{ skill.name }}</span><progress class="skill-meter" max="100" value="{{ skill.level }}"></progress></li>
         {% endfor %}
       </ul>
     </div>
   </section>
-  <section id="experience" class="what-i-do">
-    <div>
+  <section id="experience" class="row what-i-do">
+    <div class="col-8 col-offset-2">
       <h1>{{ site.data.portfolio.what_i_do_title }}</h1>
       <p>{{ site.data.portfolio.what_i_do_about }}</p>
     </div>
   </section>
-  <section id="works" class="works">
-    <div>
+  <section id="works" class="row works">
+    <div class="col-8 col-offset-2">
       <h1>I miei lavori</h1>
-      <div><img src="{{ site.baseurl }}/assets/w1.png" alt=""></div>
-      <div><img src="{{ site.baseurl }}/assets/w2.png" alt=""></div>
-      <div><img src="{{ site.baseurl }}/assets/w3.png" alt=""></div>
+      <div class="row">
+        <div class="col-6">
+          <div class="thumbnail">
+            <img src="{{ site.baseurl }}/assets/w1.png" alt="">
+            <p>Techdoor</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="thumbnail">
+            <img src="{{ site.baseurl }}/assets/w2.png" alt="">
+            <p>Skriba</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="thumbnail">
+            <img src="{{ site.baseurl }}/assets/w3.png" alt="">
+            <p>DaiVoceAllaTuaVoce</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </div>

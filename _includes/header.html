@@ -1,11 +1,13 @@
-<header>
-  <div>
-    <!--<div class="me-container"><img src="{{ site.baseurl }}/assets/author.jpg" alt="" class="me"></div>-->
-    <section class="presentation-heading">
+<header class="container">
+  <div class="row">
+    <section class="col-8 col-offset-2 presentation-heading">
       <h1>{{ site.author }}</h1>
       <h2>{{ site.data.portfolio.small_description }}</h2>
       <a href="#nav" class="btn approfondisci">Conoscimi meglio</a>
       <a href="#contact" class="btn contattami">Contattami</a>
     </section>
+  </div>
+  <div class="row">
+    {% include nav.html %}
   </div>
 </header>
