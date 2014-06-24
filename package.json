@@ -6,6 +6,8 @@
     "grunt-contrib-sass": "^0.7.3",
     "grunt-git": "^0.2.13",
     "grunt-jekyll": "^0.4.2",
-    "grunt-shell": "^0.7.0"
+    "grunt-prompt": "^1.1.0",
+    "grunt-shell": "^0.7.0",
+    "grunt-task-helper": "^0.3.5"
   }
 }

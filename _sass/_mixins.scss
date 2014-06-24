@@ -19,19 +19,24 @@
   margin-left:percentage($col/$col-number);
 }
 
-@mixin generate-grid {
+@mixin generate-grid ($suffix) {
   @for $i from 1 through $col-number {
-    .col-#{$i} {
-      @include make-col($i);
+    @if $suffix {
+      .col-#{$suffix}-#{$i} {
+        @include make-col($i);
+      }
+      .col-offset-#{$suffix}-#{$i} {
+        @include make-offset($i);
+      }
+    } @else {
+      .col-#{$i} {
+        @include make-col($i);
+      }
+      .col-offset-#{$i} {
+        @include make-offset($i);
+      }
     }
-  } 
-}
-
-@mixin generate-offset {
-  @for $i from 1 through $col-number {
-    .col-offset-#{$i} {
-      @include make-offset($i);
-    }
+    
   } 
 }
 
