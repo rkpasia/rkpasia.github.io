@@ -8,15 +8,9 @@
   }
 
   .navigation ul {
-    width:100%;
     float:left;
   }
-
-  .navigation ul li {
-    margin:0 5% 0 0;
-    float:left;
-  }
-  
+ 
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -25,19 +19,12 @@
   @include generate-grid('md');
 
   .navigation .nav-heading {
-    display:none;
+    display:block;
   }
 
   .navigation ul {
-    width:100%;
-    float:left;
+    float:right;
   }
-
-  .navigation ul li {
-    margin:0 5% 0 0;
-    float:left;
-  }
-
 
 }
 
@@ -45,20 +32,6 @@
 @media only screen and (min-width : 1224px) {
   
   @include generate-grid('md');
-
-  .navigation .nav-heading {
-    display:block;
-  }
-
-  .navigation ul {
-    width:65%;
-    float:right;
-  }
-
-  .navigation ul li {
-    margin:0 0 0 5%;
-    float:right;
-  }
 
 }
 

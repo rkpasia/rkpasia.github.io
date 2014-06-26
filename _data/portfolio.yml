@@ -2,11 +2,19 @@
 # Header headings
 small_description: "I'm a web developer based in Italy."
 
+#Menu 
+
+menu:
+- {name: About, url: '#description'}
+- {name: Skills, url: '#skill'}
+- {name: Experience, url: '#experience'}
+- {name: Works, url: '#works'}
+
 
 # Main section portfolio
 
-description_title: "La mia storia"
-description_about: "Attualmente sono uno studente di Tecnologie Web e Multimediali dell’Università di Udine. Precedentemente ho frequentato l’Istituto Tecnico Tecnologico Statale Vito Volterra di San Donà di Piave, conseguendo il diploma di Perito Informatico. Alle superiori ho scoperto per la prima volta l’ambiente dello sviluppo web, al quale sono stato introdotto tramite l’insegnamento dell’HTML. Successivamente la mia passione è cresciuta esponenzialmente ed ho continuato ad alimentarla da autodidatta creando piccoli progetti personali fino a progetti per concorsi, quali GoToWeb nel quale sono stato finalista. Ora la mia passione si è trasformata in professione, alla quale dedico tutto il mio entusiasmo e voglia di imparare sempre nuove tecniche e conoscenze."
+description_title: "My history"
+description_about: "I am currently a student in Web and Multimedia Technologies at the University of Udine. Previously I attended the Technical Institute of Technology State Vito Volterra San Dona di Piave, obtaining the Diploma in Information Technology. In high school I discovered for the first time the environment of web development, to which I was introduced through the teaching of HTML. After my passion has grown exponentially and I have continued to fuel it by myself creating small personal projects to projects for competitions, such GoToWeb in which I was a finalist. Now, my passion has turned into a profession, to whom I dedicate all my enthusiasm and desire to learn new techniques and knowledge."
 
 skill_title:
 # Each skill must be followed by the level
@@ -23,7 +31,7 @@ skill_list_second_col:
 - {name: Ruby, level: 20}
 
 what_i_do_title: "La mia esperienza"
-what_i_do_about: "Sono un web developer. Principalmente mi occupo di creare grafiche e template per siti web, utilizzando gli standard più moderni per lo sviluppo di essi. Dispongo delle conoscenze necessarie per creare template wordpress su misura assecondando ogni esigenza del cliente. Sono una mente creativa e cerco sempre di ottimizzare il mio stile di lavoro, cercando di renderlo il più produttivo e veloce possibile, integrando nel processo gli strumenti migliori e più comunemente utilizzati nel mio ambiente. Cerco di rimanere sempre al passo con le tecnologie e i linguaggi di programmazione più diffusi, o in fase di diffusione, per questo sono sempre disponibile ed entusiasta di apprendere nuove conoscenze per lo sviluppo."
+what_i_do_about: "I am a web developer. Mainly I work to create graphics and templates for websites, using the latest standards for development. Do I have the necessary knowledge to create wordpress template customized complying with every requirement of the customer. I am a creative mind and always try to optimize my style of work, trying to make it more productive and fast as possible, integrating in the process the best tools and most commonly used in my environment. I try to stay up to date with the technology and the most popular programming languages, or in the process of diffusion, therefore, I'm always helpful and keen to learn new knowledge for development."
 
 
 # Portfolio footer social contact
