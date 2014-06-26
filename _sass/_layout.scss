@@ -42,14 +42,24 @@ header .presentation-heading {
 }
 
 header .presentation-heading h1 {
-  font-size:60px;
+  @media only screen and (min-width : 320px){
+    font-size:30px;
+  }
+  @media only screen and (min-width : 768px){
+    font-size:60px;
+  }
   margin:50px 0 5px -3px;
   color:#FFF;
   text-shadow:1px -1px 1px #555;
 }
 
 header .presentation-heading h2 {
-  font-size:25px;
+  @media only screen and (min-width : 320px){
+    font-size:20px;
+  }
+  @media only screen and (min-width : 768px){
+    font-size:30px;
+  }
   margin-bottom:45px;
   color:#efefef;
   text-shadow: 1px -1px 1px #555;
@@ -62,6 +72,7 @@ header .presentation-heading .btn {
 header .presentation-heading .contattami {
   background-color:#1daf9b;
   box-shadow:3px 3px 0px #47eebe;
+  clear:right;
 }
 
 .nav-container {
@@ -99,16 +110,20 @@ section.nav-container::before {
 }
 
 .navigation ul {
-  width:65%;
-  float:right;
+
 }
 
 .navigation ul li {
-  margin:0 0 0 5%;
-  float:right;
+
 }
 
 .navigation ul li a {
+  @media only screen and (min-width : 320px){
+    font-size:15px;
+  }
+  @media only screen and (min-width : 768px){
+    font-size:20px;
+  }
   text-decoration:none;
   color:#555;
   font-size:20px;
@@ -122,14 +137,25 @@ section.nav-container::before {
 }
 
 .content > section h1 {
+  @media only screen and (min-width : 320px){
+    font-size:20px;
+  }
+  @media only screen and (min-width : 768px){
+    font-size:35px;
+  }
   text-transform: uppercase;
-  font-size:35px;
   margin-bottom:20px;
   font-weight:800;
   letter-spacing:3px;
 }
 
 .content > section p {
+  @media only screen and (min-width : 320px){
+    font-size:14px;
+  }
+  @media only screen and (min-width : 768px){
+    font-size:18px;
+  }
   font-family: 'Open Sans', sans-serif;
   font-size:18px;
   line-height: 22px;
@@ -138,12 +164,17 @@ section.nav-container::before {
 }
 
 .content .skill-name {
+  @media only screen and (min-width : 320px){
+    font-size:16px;
+  }
+  @media only screen and (min-width : 768px){
+    font-size:20px;
+  }
   width:90px;
   display:block;
   text-align:left;
   margin-bottom:5px;
   margin-top:15px;
-  font-size:20px;
   padding-right:15px;
 }
 
@@ -215,7 +246,6 @@ body > footer{
 }
 
 body > footer > div {
-
   height:100%;
 }
 
@@ -225,7 +255,12 @@ footer .footer-nav {
 }
 
 footer .footer-nav h2{
-  font-size:20px;
+  @media only screen and (min-width : 320px){
+    font-size:16px;
+  }
+  @media only screen and (min-width : 768px){
+    font-size:20px;
+  }
   text-shadow:1px -1px 1px #555;
   line-height:40px;
 
@@ -243,9 +278,14 @@ footer .footer-nav ul li {
 }
 
 footer .footer-nav ul li a{ 
+  @media only screen and (min-width : 320px){
+    font-size:16px;
+  }
+  @media only screen and (min-width : 768px){
+    font-size:20px;
+  }
   text-decoration:none;
   color:#FFF;
   text-shadow:0px -1px 1px #555;
-  font-size:20px;
   font-weight: 400;
 }

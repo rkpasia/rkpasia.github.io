@@ -28,6 +28,6 @@ what_i_do_about: "Sono un web developer. Principalmente mi occupo di creare graf
 
 # Portfolio footer social contact
 social_contact:
-- {name: Stack, link: "http://stackoverflow.com/users/1777549/rkpasia"}
+- {name: Stackoverflow, link: "http://stackoverflow.com/users/1777549/rkpasia"}
 - {name: Codepen, link: "http://codepen.io/Pasia"}
 - {name: Twitter, link: "http://twitter.com/rkpasia"}
