@@ -16,7 +16,7 @@ menu:
 description_title: "My history"
 description_about: "I am currently a student in Web and Multimedia Technologies at the University of Udine. Previously I attended the Technical Institute of Technology State Vito Volterra San Dona di Piave, obtaining the Diploma in Information Technology. In high school I discovered for the first time the environment of web development, to which I was introduced through the teaching of HTML. After my passion has grown exponentially and I have continued to fuel it by myself creating small personal projects to projects for competitions, such GoToWeb in which I was a finalist. Now, my passion has turned into a profession, to whom I dedicate all my enthusiasm and desire to learn new techniques and knowledge."
 
-skill_title:
+skill_title: "Skills"
 # Each skill must be followed by the level
 skill_list_first_col:
 - {name: Html, level: 100}
@@ -30,9 +30,15 @@ skill_list_second_col:
 - {name: Java, level: 80}
 - {name: Ruby, level: 20}
 
-what_i_do_title: "La mia esperienza"
+what_i_do_title: "Experience"
 what_i_do_about: "I am a web developer. Mainly I work to create graphics and templates for websites, using the latest standards for development. Do I have the necessary knowledge to create wordpress template customized complying with every requirement of the customer. I am a creative mind and always try to optimize my style of work, trying to make it more productive and fast as possible, integrating in the process the best tools and most commonly used in my environment. I try to stay up to date with the technology and the most popular programming languages, or in the process of diffusion, therefore, I'm always helpful and keen to learn new knowledge for development."
 
+work_title: "Works"
+
+works:
+- {name: Techdoor, imagepath: "w1.png" }
+- {name: Skriba, imagepath: "w2.png" }
+- {name: DaiVoceAllaTuaVoce, imagepath: "w3.png" }
 
 # Portfolio footer social contact
 social_contact:
