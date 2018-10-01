@@ -34,7 +34,7 @@ main {
 
 .links {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-size: 1.5em;
   justify-content: center;
 }
