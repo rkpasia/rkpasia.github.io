@@ -14,7 +14,7 @@ html, body {
 }
 
 main {
-  color: #333;
+  color: #222;
   border: 5px solid #FF1F26;
   display: flex;
   flex-direction: column;
@@ -32,17 +32,17 @@ main {
 }
 
 .details h1 {
-  font-size: 14pt;
+  font-size: 18pt;
 }
 
 .details h2 {
-  font-size: 20pt;
+  font-size: 26pt;
 }
 
 .links {
+  font-size: 14pt;
   display: flex;
   flex-direction: column;
-  font-size: 12pt;
   justify-content: center;
 }
 
@@ -51,7 +51,7 @@ main {
 }
 
 .links span a {
-  color: #333;
+  color: #222;
   text-decoration: none;
 }
 
@@ -62,5 +62,5 @@ main {
 
 .logo {
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 70%;
 }
