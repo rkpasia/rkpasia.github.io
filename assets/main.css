@@ -14,6 +14,8 @@ html, body {
 }
 
 main {
+  color: #333;
+  border: 5px solid #FF1F26;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +32,7 @@ main {
 }
 
 .details h1 {
-  font-size: 15pt;
+  font-size: 14pt;
 }
 
 .details h2 {
@@ -49,12 +51,12 @@ main {
 }
 
 .links span a {
-  color: black;
+  color: #333;
   text-decoration: none;
 }
 
 .links span a:hover {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #FF1F26;
   padding-bottom: 5px;
 }
 
